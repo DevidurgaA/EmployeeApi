@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+
+    <module name="module_employee">
+
+        <table name="EmployeeData">
+            <columns>
+                <column name="ID" data-type="BIGINT"/>
+                <column name="NAME" data-type="CHAR" nullable="false" max-length="70"/>
+                <column name="SALARY" data-type="BIGINT" nullable="false" max-length="70"/>
+                <column name="CONTACT_NUMBER" data-type="BIGINT" nullable="false" max-length="15"/>
+            </columns>
+            <primary-key name="EmployeeData_PK" column="ID" sequence-generator="EmployeeData.ID" />
+        </table>
+
+    </module>
+
+</metadata>

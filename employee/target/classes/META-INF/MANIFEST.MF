@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Build-Jdk: 17
+Bundle-Activator: com.tlc.crm.employee.Activator
+Bundle-Description: employee OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: employee Bundle
+Bundle-SymbolicName: com.tlc.crm.employee
+Bundle-Version: 2.0.0.2d-SNAPSHOT
+Export-Package: com.tlc.crm.employee.action;uses:="com.tlc.commons.json,
+ com.tlc.crm.employee.common.action.secure,com.tlc.crm.employee.common.a
+ ction.secure.list,com.tlc.crm.employee.common.config,com.tlc.crm.employ
+ ee.model,com.tlc.validator,com.tlc.web";version="2.0.0",com.tlc.crm.emp
+ loyee;uses:="org.osgi.framework";version="2.0.0",com.tlc.crm.employee.a
+ pi;uses:="com.tlc.crm.employee.common.config,com.tlc.crm.employee.model
+ ,com.tlc.validator";version="2.0.0",com.tlc.crm.employee.model;uses:="c
+ om.tlc.validator";version="2.0.0",com.tlc.crm.employee.status;uses:="co
+ m.tlc.commons.code";version="2.0.0",com.tlc.crm.employee.validation;use
+ s:="com.tlc.crm.employee.model,jakarta.validation";version="2.0.0"
+Import-Package: com.tlc.commons.code;version="[4.1,5)",com.tlc.commons.j
+ son;version="[4.1,5)",com.tlc.crm.employee.api,com.tlc.crm.employee.com
+ mon.action.secure;version="[2.0,3)",com.tlc.crm.employee.common.action.
+ secure.list;version="[2.0,3)",com.tlc.crm.employee.common.config;versio
+ n="[2.0,3)",com.tlc.crm.employee.model,com.tlc.crm.employee.status,com.
+ tlc.crm.employee.validation,com.tlc.sql;version="[4.1,5)",com.tlc.sql.a
+ pi;version="[4.1,5)",com.tlc.sql.api.dml;version="[4.1,5)",com.tlc.sql.
+ api.ds;version="[4.1,5)",com.tlc.validator;version="[4.1,5)",com.tlc.va
+ lidator.type;version="[4.1,5)",com.tlc.web;version="[4.1,5)",jakarta.va
+ lidation;version="[3.0,4)",org.osgi.framework;version="[1.9,2)"
+Include-Resource: resources/sql/data.xml=src/main/resources/sql/data.xml
+ ,resources/sql/meta.xml=src/main/resources/sql/meta.xml
+Private-Package: resources.sql
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=9))"
