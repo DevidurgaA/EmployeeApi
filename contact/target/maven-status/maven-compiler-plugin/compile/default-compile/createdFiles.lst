@@ -1,0 +1,9 @@
+com\tlc\crm\employee\contact\action\ContactManagement.class
+com\tlc\crm\employee\contact\api\ContactManager$Instance.class
+com\tlc\crm\employee\contact\api\ContactManager.class
+com\tlc\crm\employee\contact\api\Contact.class
+com\tlc\crm\employee\contact\api\DealManager$Instance.class
+com\tlc\crm\employee\contact\Activator.class
+com\tlc\crm\employee\contact\action\ContactListAction.class
+com\tlc\crm\employee\contact\api\DealManager.class
+com\tlc\crm\employee\contact\sql\resource\MCOCONTACT.class

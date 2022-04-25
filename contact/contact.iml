@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="commons" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.lz4:lz4-java:1.8.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-pool2:2.11.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.dslplatform:dsl-json:1.9.9-tlc" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module" module-name="sql" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.javatuples:javatuples:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.zaxxer:HikariCP:5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.postgresql:postgresql:42.3.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="module" module-name="web" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.undertow:undertow-core:2.2.16.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.xnio:xnio-api:3.8.6.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.wildfly.client:wildfly-client-config:1.0.1.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.xnio:xnio-nio:3.8.6.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.threads:jboss-threads:3.1.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.wildfly.common:wildfly-common:1.5.4.Final-tlc" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss:jdk-misc:3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.undertow:undertow-parser-generator:2.2.16.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.reflections:reflections:0.10.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.javassist:javassist:3.28.0-GA" level="project" />
+    <orderEntry type="module" module-name="validator" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate.validator:hibernate-validator:7.0.2.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: jakarta.validation:jakarta.validation-api:3.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml:classmate:1.5.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish:jakarta.el:4.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: jakarta.el:jakarta.el-api:4.0.0" level="project" />
+    <orderEntry type="module" module-name="common" scope="PROVIDED" />
+    <orderEntry type="library" name="Maven: com.tlc.crm:employeedata:2.0.2d-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:osgi.core:7.0.0" level="project" />
+  </component>
+</module>
